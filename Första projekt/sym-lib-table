@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Mechatronics_lib")(type "KiCad")(uri "${KIPRJMOD}/Mechatronics_lib.kicad_sym")(options "")(descr ""))
+)
