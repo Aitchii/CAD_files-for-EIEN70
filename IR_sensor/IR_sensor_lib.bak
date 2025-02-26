@@ -532,7 +532,7 @@
 			)
 		)
 		(property "Footprint" "BPV11F:XDCR_BPV11F"
-			(at -10.414 -11.176 0)
+			(at -10.414 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -560,7 +560,7 @@
 			)
 		)
 		(property "MF" "Vishay Semiconductor"
-			(at -10.414 -9.398 0)
+			(at -10.414 -9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -876,7 +876,7 @@
 			)
 		)
 		(property "Footprint" "SO_358DT_STM"
-			(at 0 0 0)
+			(at -1.524 -23.876 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -886,7 +886,7 @@
 			)
 		)
 		(property "Datasheet" "LM358DT"
-			(at 0 0 0)
+			(at -4.318 -26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
