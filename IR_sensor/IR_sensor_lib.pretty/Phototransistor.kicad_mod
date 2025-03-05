@@ -1,0 +1,114 @@
+(footprint "Phototransistor"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.445 0)
+		(layer "F.SilkS")
+		(uuid "b7ffb671-38f6-4782-a7ac-db59895c5243")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Phototransistor"
+		(at 3.81 4.445 0)
+		(layer "F.Fab")
+		(uuid "f6eac440-f099-4215-84bd-4516657382a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6ac2e13-c811-491c-9188-cbf38b66b68c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45fbc2d0-d860-4c17-97a3-a904e51b0665")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 2.95 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "56b73aef-1e61-40d3-b2b2-f8c240f41ff7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.2 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "adf756d7-d293-436c-8f86-09448b9425fa")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.95 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "00572af6-f494-447e-9625-8a64aa54d146")
+	)
+	(pad "B" thru_hole circle
+		(at 1.27 0)
+		(size 1.64 1.64)
+		(drill 1.09)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "8a2bdc38-e5c8-4298-842b-49b4a0cb86ea")
+	)
+	(pad "C" thru_hole circle
+		(at 0 -1.27)
+		(size 1.64 1.64)
+		(drill 1.09)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "605a3695-f4d2-4567-a4b2-aa1b4d441fb3")
+	)
+	(pad "E" thru_hole circle
+		(at -1.27 0)
+		(size 1.64 1.64)
+		(drill 1.09)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "59d51f2e-884d-4a10-a9a5-1fd91761668e")
+	)
+	(embedded_fonts no)
+)
