@@ -985,192 +985,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechatronics:BC546"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 27.94 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "BC546"
-				(at 27.94 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "TO-92_ONS"
-				(at 28.194 -8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "BC546"
-				(at 25.908 -10.922 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BC546"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-92_ONS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BC546_0_1"
-				(polyline
-					(pts
-						(xy 22.86 3.81) (xy 22.86 -6.35)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 22.86 -6.35) (xy 34.29 -6.35)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 34.29 3.81) (xy 22.86 3.81)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 34.29 -6.35) (xy 34.29 3.81)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BC546_1_1"
-				(pin unspecified line
-					(at 15.24 -1.27 0)
-					(length 7.62)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 41.91 1.27 180)
-					(length 7.62)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 41.91 -3.81 180)
-					(length 7.62)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechatronics:TLLG4401"
 			(pin_names
 				(offset 0.254)
@@ -2031,107 +1845,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 142.24 59.69)
@@ -2170,16 +1883,6 @@
 			(type default)
 		)
 		(uuid "068faf94-f9af-4ac1-a385-ecc92c1e39db")
-	)
-	(wire
-		(pts
-			(xy 252.73 110.49) (xy 259.08 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07d89a74-0072-47a8-980c-7e307f4df759")
 	)
 	(wire
 		(pts
@@ -2233,16 +1936,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 110.49) (xy 259.08 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "630e4f20-bea3-4a7d-816e-66d7edf57d70")
-	)
-	(wire
-		(pts
 			(xy 142.24 59.69) (xy 161.29 59.69)
 		)
 		(stroke
@@ -2293,7 +1986,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 116.84) (xy 247.65 116.84)
+			(xy 269.875 59.69) (xy 250.19 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2363,16 +2056,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 116.84) (xy 247.65 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5cf6961-ab84-4eda-8ac0-a015317b6c8e")
-	)
-	(wire
-		(pts
 			(xy 250.19 35.56) (xy 250.19 59.69)
 		)
 		(stroke
@@ -2420,7 +2103,7 @@
 				)
 			)
 		)
-		(property "Value" "180"
+		(property "Value" "100"
 			(at 165.1 78.74 0)
 			(effects
 				(font
@@ -2489,7 +2172,7 @@
 				)
 			)
 		)
-		(property "Value" "180"
+		(property "Value" "100"
 			(at 165.1 31.75 0)
 			(effects
 				(font
@@ -2627,7 +2310,7 @@
 				)
 			)
 		)
-		(property "Value" "180"
+		(property "Value" "100"
 			(at 165.1 55.88 0)
 			(effects
 				(font
@@ -2828,7 +2511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c416689-090b-4be5-9545-7eb46ffdc7fe")
-		(property "Reference" "12V_in1"
+		(property "Reference" "12V_in1_ENABLE"
 			(at 123.825 54.61 0)
 			(effects
 				(font
@@ -2877,7 +2560,7 @@
 		(instances
 			(project ""
 				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
-					(reference "12V_in1")
+					(reference "12V_in1_ENABLE")
 					(unit 1)
 				)
 			)
@@ -2948,147 +2631,6 @@
 			(project ""
 				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
 					(reference "CR8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 259.08 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c604def-fd0d-4b4a-9392-bd1a75b27ca1")
-		(property "Reference" "#PWR01"
-			(at 259.08 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 259.08 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf688008-5b47-4b7f-bee3-cf873f923180")
-		)
-		(instances
-			(project ""
-				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechatronics:BC546")
-		(at 251.46 68.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a35e274b-3de4-416e-a8a5-5a7c0f05b99f")
-		(property "Reference" "U1"
-			(at 256.54 95.8849 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC546"
-			(at 256.54 98.4249 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Mechatronics:TO-92_ONS"
-			(at 243.078 96.774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "BC546"
-			(at 240.538 94.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d9a4861-eb9a-4c66-bfea-84d014208be7")
-		)
-		(pin "3"
-			(uuid "bb7827e7-b7c8-4a3e-b130-3ad0300fb977")
-		)
-		(pin "1"
-			(uuid "0c0b22f9-d2be-48de-82d7-e501eee1907c")
-		)
-		(instances
-			(project ""
-				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3306,7 +2848,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 227.33 116.84 0)
+		(at 274.955 59.69 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3314,8 +2857,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d088f7a6-6e70-4b09-9172-123080373feb")
-		(property "Reference" "ENABLE1"
-			(at 227.965 111.76 0)
+		(property "Reference" "GND"
+			(at 274.32 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,7 +2866,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 227.965 114.3 0)
+			(at 274.32 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +2874,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 227.33 116.84 0)
+			(at 274.955 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +2883,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 116.84 0)
+			(at 274.955 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +2892,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 227.33 119.38 0)
+			(at 274.955 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +2906,7 @@
 		(instances
 			(project ""
 				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
-					(reference "ENABLE1")
+					(reference "GND")
 					(unit 1)
 				)
 			)
