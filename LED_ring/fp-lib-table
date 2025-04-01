@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LED_ring")(type "KiCad")(uri "C:/Users/hanna/Documents/Mekatronikprojektet/CAD_files-for-EIEN70/LED_ring.pretty")(options "")(descr ""))
+)

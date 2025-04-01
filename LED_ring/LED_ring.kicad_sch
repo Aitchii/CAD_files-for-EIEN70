@@ -1847,26 +1847,30 @@
 		)
 	)
 	(junction
-		(at 142.24 59.69)
+		(at 88.9 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0450fcd5-d414-4616-b699-c46ec6e4c87e")
 	)
 	(junction
-		(at 250.19 59.69)
+		(at 88.9 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5d3fcca-636b-4d66-a230-7f7567774fa8")
 	)
-	(junction
-		(at 250.19 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d57843df-deff-4f93-a8fd-224c1c6159f9")
+	(wire
+		(pts
+			(xy 88.9 59.69) (xy 88.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bd6bcd-8e7d-47ed-9837-5cbdce0d8a6c")
 	)
 	(wire
 		(pts
-			(xy 187.96 59.69) (xy 195.58 59.69)
+			(xy 167.64 59.69) (xy 175.26 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1876,17 +1880,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 59.69) (xy 177.8 59.69)
+			(xy 88.9 134.62) (xy 114.3 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "068faf94-f9af-4ac1-a385-ecc92c1e39db")
+		(uuid "085a82c4-1e60-4127-b38a-b1ce0c82c1b7")
 	)
 	(wire
 		(pts
-			(xy 204.47 82.55) (xy 212.09 82.55)
+			(xy 184.15 82.55) (xy 191.77 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1896,17 +1900,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 35.56) (xy 177.8 35.56)
+			(xy 109.22 82.55) (xy 116.84 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1079e48b-9b1a-4e4e-8ad3-4a8b9da07a07")
+		(uuid "1dcaf12c-5360-42e1-a48e-6d23efb349b0")
 	)
 	(wire
 		(pts
-			(xy 187.96 35.56) (xy 195.58 35.56)
+			(xy 167.64 35.56) (xy 175.26 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1916,27 +1920,57 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 82.55) (xy 176.53 82.55)
+			(xy 109.22 59.69) (xy 116.84 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4bc901bf-0e0a-42aa-987d-412c62b06335")
+		(uuid "488cd445-a56a-4c8e-89ce-5384ac8804b8")
 	)
 	(wire
 		(pts
-			(xy 142.24 59.69) (xy 142.24 82.55)
+			(xy 88.9 110.49) (xy 115.57 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ab6c8c5-5c39-4677-bfae-48b69677249c")
+		(uuid "4c9c31a7-e2d7-4a38-b17e-86a199458e5e")
 	)
 	(wire
 		(pts
-			(xy 142.24 59.69) (xy 161.29 59.69)
+			(xy 209.55 59.69) (xy 203.2 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8618b5-f149-4816-a5f8-dc7856a2ef48")
+	)
+	(wire
+		(pts
+			(xy 153.67 82.55) (xy 156.21 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dcd424c-e2e4-47af-9c1f-8976865ffa87")
+	)
+	(wire
+		(pts
+			(xy 109.22 35.56) (xy 116.84 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6dfabf-018d-4241-aeb9-98d0c519d877")
+	)
+	(wire
+		(pts
+			(xy 88.9 59.69) (xy 101.6 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1946,7 +1980,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 82.55) (xy 161.29 82.55)
+			(xy 88.9 82.55) (xy 101.6 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1956,7 +1990,27 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 35.56) (xy 213.36 35.56)
+			(xy 208.28 82.55) (xy 201.93 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85a24038-8d39-4e00-8aa9-8ea5fb876274")
+	)
+	(wire
+		(pts
+			(xy 209.55 35.56) (xy 203.2 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90d63602-bf02-4b67-874d-f496d9ee6200")
+	)
+	(wire
+		(pts
+			(xy 185.42 35.56) (xy 193.04 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1966,17 +2020,17 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 35.56) (xy 250.19 35.56)
+			(xy 153.67 35.56) (xy 157.48 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bba2575-c027-4a1d-886b-d6b0284e0bdc")
+		(uuid "98defd8a-7e47-4404-a54c-05d81ff00dbe")
 	)
 	(wire
 		(pts
-			(xy 161.29 35.56) (xy 142.24 35.56)
+			(xy 101.6 35.56) (xy 88.9 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1986,7 +2040,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.875 59.69) (xy 250.19 59.69)
+			(xy 71.12 110.49) (xy 88.9 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1996,7 +2050,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 35.56) (xy 142.24 59.69)
+			(xy 88.9 35.56) (xy 88.9 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2006,7 +2060,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 59.69) (xy 213.36 59.69)
+			(xy 185.42 59.69) (xy 193.04 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2016,17 +2070,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 59.69) (xy 250.19 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7d5aeef-d687-4610-8405-730169ca1cbd")
-	)
-	(wire
-		(pts
-			(xy 186.69 82.55) (xy 194.31 82.55)
+			(xy 166.37 82.55) (xy 173.99 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2036,7 +2080,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 59.69) (xy 250.19 82.55)
+			(xy 88.9 110.49) (xy 88.9 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2046,37 +2090,37 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 82.55) (xy 250.19 83.82)
+			(xy 88.9 90.17) (xy 115.57 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2ce7c2e-a302-4f87-b5db-4e0cdbdd323c")
+		(uuid "be74667a-f46b-41cd-be39-06fdaafe65c0")
 	)
 	(wire
 		(pts
-			(xy 250.19 35.56) (xy 250.19 59.69)
+			(xy 152.4 59.69) (xy 157.48 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c65ae776-4696-48b9-bfbc-0b3b47113fc7")
+		(uuid "bf2c7e24-3301-4bb8-a979-7507c972ec26")
 	)
 	(wire
 		(pts
-			(xy 222.25 82.55) (xy 250.19 82.55)
+			(xy 88.9 90.17) (xy 88.9 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1d3b6cc-5b2e-4d07-a97f-505336b783e6")
+		(uuid "c44b4f97-fb4f-48db-8036-61e05f263dbb")
 	)
 	(wire
 		(pts
-			(xy 128.27 59.69) (xy 142.24 59.69)
+			(xy 76.2 59.69) (xy 88.9 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2087,7 +2131,7 @@
 	(symbol
 		(lib_name "R_1")
 		(lib_id "Device:R")
-		(at 165.1 82.55 0)
+		(at 105.41 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2096,7 +2140,7 @@
 		(fields_autoplaced yes)
 		(uuid "0364353f-51b9-4ae5-bbbd-8af0dc2b66be")
 		(property "Reference" "R3"
-			(at 165.1 76.2 0)
+			(at 105.41 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,7 +2148,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 165.1 78.74 0)
+			(at 105.41 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,7 +2156,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 165.1 80.772 0)
+			(at 105.41 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +2165,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 82.55 90)
+			(at 105.41 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2174,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 165.862 86.106 0)
+			(at 106.172 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,34 +2198,34 @@
 		)
 	)
 	(symbol
-		(lib_name "R_2")
-		(lib_id "Device:R")
-		(at 165.1 35.56 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 214.63 59.69 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0a26272b-d0f7-4ac0-96b7-facb2d05a02f")
-		(property "Reference" "R1"
-			(at 165.1 29.21 0)
+		(uuid "0677f4df-4097-4b94-8e85-b1849ca77f1e")
+		(property "Reference" "GND2a1"
+			(at 213.995 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 165.1 31.75 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 213.995 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 165.1 33.782 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 214.63 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +2234,73 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 41.91 90)
+			(at 214.63 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 214.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "708077cb-1180-4cc0-87bb-f14f7efb531c")
+		)
+		(instances
+			(project "LED_ring"
+				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
+					(reference "GND2a1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_2")
+		(lib_id "Device:R")
+		(at 105.41 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a26272b-d0f7-4ac0-96b7-facb2d05a02f")
+		(property "Reference" "R1"
+			(at 105.41 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 105.41 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 105.41 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +2309,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 165.354 40.132 0)
+			(at 105.664 40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +2334,7 @@
 	)
 	(symbol
 		(lib_id "2025-01-27_07-37-33:TLLG4401")
-		(at 213.36 35.56 0)
+		(at 193.04 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2233,7 +2343,7 @@
 		(fields_autoplaced yes)
 		(uuid "12a841de-34ca-4d62-9268-1587c29e07a3")
 		(property "Reference" "CR3"
-			(at 219.71 25.4 0)
+			(at 199.39 25.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2241,15 +2351,15 @@
 			)
 		)
 		(property "Value" "TLLG4401"
-			(at 219.71 27.94 0)
+			(at 199.39 27.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "TLL_Series_VIS"
-			(at 208.026 37.592 0)
+		(property "Footprint" "LED_ring:TLL_Series_VIS"
+			(at 187.706 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2259,7 +2369,7 @@
 			)
 		)
 		(property "Datasheet" "TLLG4401"
-			(at 208.788 40.132 0)
+			(at 188.468 40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,7 +2379,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 35.56 0)
+			(at 193.04 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,7 +2404,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 165.1 59.69 0)
+		(at 105.41 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2303,7 +2413,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c912657-f974-4ac4-aed2-201d2d6c530c")
 		(property "Reference" "R2"
-			(at 165.1 53.34 0)
+			(at 105.41 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +2421,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 165.1 55.88 0)
+			(at 105.41 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,7 +2429,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
-			(at 165.1 57.912 0)
+			(at 105.41 57.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2328,7 +2438,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 66.04 90)
+			(at 105.41 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,7 +2447,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 165.354 64.262 0)
+			(at 105.664 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +2472,7 @@
 	)
 	(symbol
 		(lib_id "2025-01-27_07-37-33:TLLG4401")
-		(at 177.8 59.69 0)
+		(at 157.48 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2371,7 +2481,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c45f63c-0018-422a-a50a-ed76bef184cf")
 		(property "Reference" "CR4"
-			(at 184.15 49.53 0)
+			(at 163.83 49.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2379,15 +2489,15 @@
 			)
 		)
 		(property "Value" "TLLG4401"
-			(at 184.15 52.07 0)
+			(at 163.83 52.07 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "TLL_Series_VIS"
-			(at 172.466 61.722 0)
+		(property "Footprint" "LED_ring:TLL_Series_VIS"
+			(at 152.146 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,7 +2507,7 @@
 			)
 		)
 		(property "Datasheet" "TLLG4401"
-			(at 173.228 64.262 0)
+			(at 152.908 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +2517,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 59.69 0)
+			(at 157.48 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,7 +2542,7 @@
 	)
 	(symbol
 		(lib_id "2025-01-27_07-37-33:TLLG4401")
-		(at 212.09 82.55 0)
+		(at 191.77 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2441,7 +2551,7 @@
 		(fields_autoplaced yes)
 		(uuid "31c0e083-cb37-4126-b540-4d7cd6d4044c")
 		(property "Reference" "CR9"
-			(at 218.44 72.39 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2449,15 +2559,15 @@
 			)
 		)
 		(property "Value" "TLLG4401"
-			(at 218.44 74.93 0)
+			(at 198.12 74.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "TLL_Series_VIS"
-			(at 206.756 84.582 0)
+		(property "Footprint" "LED_ring:TLL_Series_VIS"
+			(at 186.436 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2467,7 +2577,7 @@
 			)
 		)
 		(property "Datasheet" "TLLG4401"
-			(at 207.518 87.122 0)
+			(at 187.198 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2587,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 82.55 0)
+			(at 191.77 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2503,7 +2613,7 @@
 	(symbol
 		(lib_name "Conn_01x01_Pin_1")
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 123.19 59.69 0)
+		(at 71.12 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2511,8 +2621,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c416689-090b-4be5-9545-7eb46ffdc7fe")
-		(property "Reference" "12V_in1_ENABLE"
-			(at 123.825 54.61 0)
+		(property "Reference" "12V_in1_ENABLE1"
+			(at 71.755 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,7 +2630,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 123.825 57.15 0)
+			(at 71.755 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2528,7 +2638,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 123.19 59.69 0)
+			(at 71.12 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +2647,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 59.69 0)
+			(at 71.12 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +2656,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 124.206 62.484 0)
+			(at 72.136 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +2670,7 @@
 		(instances
 			(project ""
 				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
-					(reference "12V_in1_ENABLE")
+					(reference "12V_in1_ENABLE1")
 					(unit 1)
 				)
 			)
@@ -2568,7 +2678,7 @@
 	)
 	(symbol
 		(lib_id "2025-01-27_07-37-33:TLLG4401")
-		(at 194.31 82.55 0)
+		(at 173.99 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2577,7 +2687,7 @@
 		(fields_autoplaced yes)
 		(uuid "52fca2e9-4abd-4096-9575-9c93201873c9")
 		(property "Reference" "CR8"
-			(at 200.66 72.39 0)
+			(at 180.34 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2585,15 +2695,15 @@
 			)
 		)
 		(property "Value" "TLLG4401"
-			(at 200.66 74.93 0)
+			(at 180.34 74.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "TLL_Series_VIS"
-			(at 188.976 84.582 0)
+		(property "Footprint" "LED_ring:TLL_Series_VIS"
+			(at 168.656 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2603,7 +2713,7 @@
 			)
 		)
 		(property "Datasheet" "TLLG4401"
-			(at 189.738 87.122 0)
+			(at 169.418 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +2723,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 82.55 0)
+			(at 173.99 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,8 +2747,398 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 119.38 134.62 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bcc34e9-ab64-45b0-be83-88aa8e7a072d")
+		(property "Reference" "GND3b1"
+			(at 118.745 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 118.745 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 119.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 119.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08239222-9c8b-492e-a103-22e9e3c7bbda")
+		)
+		(instances
+			(project "LED_ring"
+				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
+					(reference "GND3b1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 213.36 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "679780c2-564a-4261-882d-68ea1cb9d679")
+		(property "Reference" "GND3a1"
+			(at 212.725 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 212.725 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 213.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 213.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7048fe6b-4266-4e12-98e4-bb1f99060aec")
+		)
+		(instances
+			(project "LED_ring"
+				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
+					(reference "GND3a1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 148.59 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9128ef9b-af2b-463b-88e7-8891ab5f2311")
+		(property "Reference" "J3b1"
+			(at 149.225 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 149.225 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 148.59 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 148.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e96bccc0-4299-441a-a985-3a2c59abd4a1")
+		)
+		(instances
+			(project "LED_ring"
+				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
+					(reference "J3b1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 147.32 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "990cee81-62dc-416c-9eb5-dae6c099a586")
+		(property "Reference" "J2b1"
+			(at 147.955 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 147.955 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 147.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 147.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44515aed-4ac3-4afe-b553-47857a934cdb")
+		)
+		(instances
+			(project "LED_ring"
+				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
+					(reference "J2b1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 121.92 59.69 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0cbdc0b-a4ec-40e4-9080-c536b49c5aa9")
+		(property "Reference" "J2a1"
+			(at 121.285 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 121.285 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 121.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6125d0f4-dd7c-4947-9883-b1b02180a8a6")
+		)
+		(instances
+			(project "LED_ring"
+				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
+					(reference "J2a1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 148.59 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a219e6b3-187b-4e71-ac9e-d14c48a85567")
+		(property "Reference" "J1b1"
+			(at 149.225 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 149.225 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 148.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8979df46-a9e3-431d-ade7-95a621f72a18")
+		)
+		(instances
+			(project "LED_ring"
+				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
+					(reference "J1b1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechatronics:TLLG4401")
-		(at 177.8 35.56 0)
+		(at 157.48 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2647,7 +3147,7 @@
 		(fields_autoplaced yes)
 		(uuid "a507258e-33a9-4f28-a60c-c84adb41520d")
 		(property "Reference" "CR1"
-			(at 184.15 25.4 0)
+			(at 163.83 25.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2655,15 +3155,15 @@
 			)
 		)
 		(property "Value" "TLLG4401"
-			(at 184.15 27.94 0)
+			(at 163.83 27.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "Mechatronics:TLL_Series_VIS"
-			(at 172.466 37.592 0)
+		(property "Footprint" "LED_ring:TLL_Series_VIS"
+			(at 152.146 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +3173,7 @@
 			)
 		)
 		(property "Datasheet" "TLLG4401"
-			(at 173.228 40.132 0)
+			(at 152.908 40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +3183,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 35.56 0)
+			(at 157.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2707,8 +3207,338 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 121.92 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5693533-8e60-4773-81f7-5f3576608227")
+		(property "Reference" "J1a1"
+			(at 121.285 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 121.285 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 121.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 121.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b46dd047-60aa-4a89-88c5-8e7e05d7a23f")
+		)
+		(instances
+			(project "LED_ring"
+				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
+					(reference "J1a1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 120.65 110.49 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b67ed4c9-0637-4612-a69e-65ea00810051")
+		(property "Reference" "GND2b1"
+			(at 120.015 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 120.015 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c6d1ece-c59d-421b-be9e-14fcd042647c")
+		)
+		(instances
+			(project "LED_ring"
+				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
+					(reference "GND2b1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 120.65 90.17 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6c2af11-f75b-49ff-b926-a8397662ddf9")
+		(property "Reference" "GND1b1"
+			(at 120.015 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 120.015 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 120.65 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 120.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "337b1365-42a9-4615-82ed-8694faced7ff")
+		)
+		(instances
+			(project "LED_ring"
+				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
+					(reference "GND1b1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 214.63 35.56 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6e6a8ba-0c10-40d0-9a8f-ad3442a5f449")
+		(property "Reference" "GND1a1"
+			(at 213.995 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 213.995 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 214.63 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 214.63 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3da6c399-bf24-4515-9582-941fa973a11b")
+		)
+		(instances
+			(project "LED_ring"
+				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
+					(reference "GND1a1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 121.92 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8d5ccc6-4b7b-40cb-a3fd-726bb6377cd0")
+		(property "Reference" "J3a1"
+			(at 121.285 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 121.285 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31b53e8f-91cb-4ca6-b74e-181665d97878")
+		)
+		(instances
+			(project "LED_ring"
+				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
+					(reference "J3a1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2025-01-27_07-37-33:TLLG4401")
-		(at 213.36 59.69 0)
+		(at 193.04 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2717,7 +3547,7 @@
 		(fields_autoplaced yes)
 		(uuid "c15a5ef7-d607-42c8-b662-657dba0d46de")
 		(property "Reference" "CR6"
-			(at 219.71 49.53 0)
+			(at 199.39 49.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2725,15 +3555,15 @@
 			)
 		)
 		(property "Value" "TLLG4401"
-			(at 219.71 52.07 0)
+			(at 199.39 52.07 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "TLL_Series_VIS"
-			(at 208.026 61.722 0)
+		(property "Footprint" "LED_ring:TLL_Series_VIS"
+			(at 187.706 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +3573,7 @@
 			)
 		)
 		(property "Datasheet" "TLLG4401"
-			(at 208.788 64.262 0)
+			(at 188.468 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +3583,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 59.69 0)
+			(at 193.04 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2778,7 +3608,7 @@
 	)
 	(symbol
 		(lib_id "2025-01-27_07-37-33:TLLG4401")
-		(at 176.53 82.55 0)
+		(at 156.21 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2787,7 +3617,7 @@
 		(fields_autoplaced yes)
 		(uuid "c41818ce-af43-49a0-b953-ebc6904dbb61")
 		(property "Reference" "CR7"
-			(at 182.88 72.39 0)
+			(at 162.56 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2795,15 +3625,15 @@
 			)
 		)
 		(property "Value" "TLLG4401"
-			(at 182.88 74.93 0)
+			(at 162.56 74.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "TLL_Series_VIS"
-			(at 171.196 84.582 0)
+		(property "Footprint" "LED_ring:TLL_Series_VIS"
+			(at 150.876 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +3643,7 @@
 			)
 		)
 		(property "Datasheet" "TLLG4401"
-			(at 171.958 87.122 0)
+			(at 151.638 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,7 +3653,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 82.55 0)
+			(at 156.21 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,8 +3678,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 274.955 59.69 0)
-		(mirror y)
+		(at 66.04 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2857,8 +3686,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d088f7a6-6e70-4b09-9172-123080373feb")
-		(property "Reference" "GND"
-			(at 274.32 54.61 0)
+		(property "Reference" "GND1"
+			(at 66.675 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +3695,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 274.32 57.15 0)
+			(at 66.675 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +3703,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 274.955 59.69 0)
+			(at 66.04 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +3712,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.955 59.69 0)
+			(at 66.04 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +3721,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 274.955 62.23 0)
+			(at 66.04 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2906,7 +3735,7 @@
 		(instances
 			(project ""
 				(path "/c7b4129d-c051-430e-b09b-c9fd6f723e94"
-					(reference "GND")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -2914,7 +3743,7 @@
 	)
 	(symbol
 		(lib_id "2025-01-27_07-37-33:TLLG4401")
-		(at 195.58 59.69 0)
+		(at 175.26 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2923,7 +3752,7 @@
 		(fields_autoplaced yes)
 		(uuid "e209c925-a82a-484b-b070-2f26ed46d0ed")
 		(property "Reference" "CR5"
-			(at 201.93 49.53 0)
+			(at 181.61 49.53 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2931,15 +3760,15 @@
 			)
 		)
 		(property "Value" "TLLG4401"
-			(at 201.93 52.07 0)
+			(at 181.61 52.07 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "TLL_Series_VIS"
-			(at 190.246 61.722 0)
+		(property "Footprint" "LED_ring:TLL_Series_VIS"
+			(at 169.926 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +3778,7 @@
 			)
 		)
 		(property "Datasheet" "TLLG4401"
-			(at 191.008 64.262 0)
+			(at 170.688 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +3788,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 59.69 0)
+			(at 175.26 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,7 +3813,7 @@
 	)
 	(symbol
 		(lib_id "2025-01-27_07-37-33:TLLG4401")
-		(at 195.58 35.56 0)
+		(at 175.26 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2993,7 +3822,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec33ce30-8ffe-4285-8ca1-7d08d1cbd678")
 		(property "Reference" "CR2"
-			(at 201.93 25.4 0)
+			(at 181.61 25.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3001,15 +3830,15 @@
 			)
 		)
 		(property "Value" "TLLG4401"
-			(at 201.93 27.94 0)
+			(at 181.61 27.94 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "TLL_Series_VIS"
-			(at 190.246 37.592 0)
+		(property "Footprint" "LED_ring:TLL_Series_VIS"
+			(at 169.926 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +3848,7 @@
 			)
 		)
 		(property "Datasheet" "TLLG4401"
-			(at 191.008 40.132 0)
+			(at 170.688 40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3029,7 +3858,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 35.56 0)
+			(at 175.26 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
