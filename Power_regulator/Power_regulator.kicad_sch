@@ -2338,6 +2338,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2551,6 +2676,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73f30c63-8f7a-409f-bba8-13a532d537b8")
+	)
+	(junction
+		(at 52.07 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9aee50c1-1a23-4117-81c8-e659fb2eb889")
 	)
 	(junction
 		(at 52.07 80.01)
@@ -3218,7 +3349,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 80.01) (xy 52.07 119.38)
+			(xy 52.07 80.01) (xy 52.07 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3305,6 +3436,16 @@
 			(type default)
 		)
 		(uuid "ee3a91d3-9d08-4c7e-89bb-f04ec92e4d1d")
+	)
+	(wire
+		(pts
+			(xy 52.07 91.44) (xy 52.07 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f082ac15-a522-473b-b486-d9e956e49651")
 	)
 	(wire
 		(pts
@@ -3606,6 +3747,72 @@
 			(project ""
 				(path "/ed5e7dc3-b551-4b16-ba42-f25354774d36"
 					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 52.07 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "160b7a02-36c0-456e-9ce2-68f012aa0d14")
+		(property "Reference" "#PWR02"
+			(at 52.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 52.07 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 52.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75e7a2a7-701c-4e50-a97b-9dad5e72e413")
+		)
+		(instances
+			(project ""
+				(path "/ed5e7dc3-b551-4b16-ba42-f25354774d36"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4238,7 +4445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 130.302 160.02 90)
 			(effects
 				(font
@@ -4513,7 +4720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 133.35 179.578 90)
 			(effects
 				(font
@@ -4855,7 +5062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 133.35 133.858 90)
 			(effects
 				(font
@@ -5192,7 +5399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 133.35 149.098 90)
 			(effects
 				(font
@@ -5324,7 +5531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 133.35 141.478 90)
 			(effects
 				(font

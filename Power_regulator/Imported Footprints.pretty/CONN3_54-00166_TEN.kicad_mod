@@ -125,36 +125,6 @@
 		(uuid "0f1607be-48ff-4cba-8499-6b8725c1f469")
 	)
 	(fp_line
-		(start -0.9652 0)
-		(end 0.9652 0)
-		(stroke
-			(width 1.0668)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "938d1860-9751-42b2-a472-789dd8d69012")
-	)
-	(fp_line
-		(start -0.9652 6.25)
-		(end 0.9652 6.25)
-		(stroke
-			(width 1.0668)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "a7641b80-1827-4b28-97c8-5cbc2d6b420c")
-	)
-	(fp_line
-		(start 4.800001 4.090202)
-		(end 4.800001 2.159802)
-		(stroke
-			(width 1.0668)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "3ecce239-9d10-4f02-8066-e46d2ce29e9e")
-	)
-	(fp_line
 		(start -4.8514 -0.50401)
 		(end -4.8514 14.00399)
 		(stroke
@@ -337,64 +307,28 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
-		(at -0.9652 0)
-		(size 1.0668 1.0668)
-		(drill 1.0668)
-		(layers "*.Cu" "*.Mask")
-		(uuid "6fa79a67-8fa2-43cf-9eb4-4335c94c6b9c")
-	)
-	(pad "" np_thru_hole circle
-		(at -0.9652 6.25)
-		(size 1.0668 1.0668)
-		(drill 1.0668)
-		(layers "*.Cu" "*.Mask")
-		(uuid "6c37f48c-8654-4019-b710-9f1f1a125b33")
-	)
-	(pad "" np_thru_hole circle
-		(at 0.9652 0)
-		(size 1.0668 1.0668)
-		(drill 1.0668)
-		(layers "*.Cu" "*.Mask")
-		(uuid "863d2e43-4b38-4824-93f9-703c15f09969")
-	)
-	(pad "" np_thru_hole circle
-		(at 0.9652 6.25)
-		(size 1.0668 1.0668)
-		(drill 1.0668)
-		(layers "*.Cu" "*.Mask")
-		(uuid "22c2558f-8ff7-4c22-958e-9787a0aeb818")
-	)
-	(pad "" np_thru_hole circle
-		(at 4.800001 2.159802)
-		(size 1.0668 1.0668)
-		(drill 1.0668)
-		(layers "*.Cu" "*.Mask")
-		(uuid "396a785a-d5b8-4420-9678-7ce6df50b09a")
-	)
-	(pad "" np_thru_hole circle
-		(at 4.800001 4.090202)
-		(size 1.0668 1.0668)
-		(drill 1.0668)
-		(layers "*.Cu" "*.Mask")
-		(uuid "129b78d9-7bea-45f4-a1c9-4326793b066f")
-	)
-	(pad "1" smd oval
+	(pad "1" thru_hole oval
 		(at 0 0)
 		(size 3.5052 1.5748)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(drill oval 3 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "08e955d2-7933-4f75-bb5e-49feb17cee99")
 	)
-	(pad "2" smd oval
+	(pad "2" thru_hole oval
 		(at 0 6.25)
 		(size 3.5052 1.5748)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(drill oval 3 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "405aa2a8-30bb-4577-bab2-f69b0ea6e278")
 	)
-	(pad "3" smd oval
+	(pad "3" thru_hole oval
 		(at 4.800001 3.125002)
 		(size 1.5748 3.5052)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(drill oval 0.8 3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "e0474205-23b6-4a92-a3c8-71bf124c9c02")
 	)
 	(embedded_fonts no)
