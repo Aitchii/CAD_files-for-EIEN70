@@ -3014,6 +3014,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 74.93) (xy 224.79 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24416ee2-5b67-407e-9bcd-84bc7d88b6c3")
+	)
+	(wire
+		(pts
 			(xy 167.64 80.01) (xy 167.64 88.9)
 		)
 		(stroke
@@ -3161,6 +3171,16 @@
 			(type default)
 		)
 		(uuid "910fdc22-0236-4ed6-958c-033af437124d")
+	)
+	(wire
+		(pts
+			(xy 224.79 92.71) (xy 224.79 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c6ecb6-af03-4899-9079-6b5a4b75deee")
 	)
 	(wire
 		(pts
@@ -3389,6 +3409,143 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 224.79 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14dc53f1-9712-42db-8881-4a320178a8d6")
+		(property "Reference" "#PWR010"
+			(at 224.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10b6e70e-4b0a-4541-97cd-7eca3cb9a870")
+		)
+		(instances
+			(project ""
+				(path "/d6ceb58d-433d-4683-8247-0a402c7551db"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_4")
+		(lib_id "Device:R")
+		(at 224.79 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e778f7b-7140-44c4-ade9-ce968edd6fd1")
+		(property "Reference" "R7"
+			(at 227.33 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 227.33 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 223.012 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 224.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7bb60be-1940-4b99-ad8d-dc2fa0aa5d17")
+		)
+		(pin "2"
+			(uuid "ab146a68-121f-483d-aa57-61f91a258698")
+		)
+		(instances
+			(project "IR_sensor"
+				(path "/d6ceb58d-433d-4683-8247-0a402c7551db"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "R_4")
 		(lib_id "Device:R")
 		(at 158.75 111.76 0)
@@ -3479,7 +3636,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500"
+		(property "Value" "10k"
 			(at 227.33 63.4999 0)
 			(effects
 				(font
